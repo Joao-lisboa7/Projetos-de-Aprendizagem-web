@@ -1,0 +1,158 @@
+/*=====================================================tags==================================================*/
+body{
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:'Montserrat, sans-serif';
+    
+}
+h5{
+    font-family: "Ubunto";
+    padding-bottom: 2%;
+}
+p{
+    font-family: "Ubunto";
+    font-size:1.15rem;
+}
+/*=====================================================Heading====================================================*/
+.big-heading{
+    font-size: 3.2rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+.margin{
+    margin: 0px 20px;
+}
+.subtitle{
+    font-family:'Montserrat, sans-serif';
+    font-weight:550;
+}
+.topicos{
+    font-family:'Montserrat';
+    font-weight:550;
+}
+/*------------------------------------------------section--------------------------------------------------------*/
+.white-section{
+    background-color:#fff ;
+    color: black;
+}
+.colored-section{
+    background-color:#051d35 ;
+    color:#fff ;
+}
+/*=====================================================header==================================================*/
+#title .container-fluid{
+    padding: 0% 10% 120px 10% ;
+    text-align: left;
+}
+.navbar{
+    padding-top: 2%;
+    padding-bottom: 13%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.btn{
+    margin-top: 45px;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.celular-gato{
+    transform: rotate(24deg);
+    width: 53%;
+    position:absolute;
+    left: 155px ;
+    top: -70px;
+}
+.nav-item{
+    padding: 0 8px;
+}
+.nav-link{
+    font-size: 1.1rem;
+}
+/*========================================================features============================================================*/
+#container-features{
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    
+}
+#features{
+    padding: 15% 0 5% 0;
+}
+#icon-features{
+    font-size: 70px;
+    margin-bottom: 1.1rem;
+    color: rgba(245, 97, 86, 0.788);;
+}
+#icon-features:hover{
+    color:crimson
+}
+.featureElements{
+    padding: 0 20px;
+}
+
+/*=====================================================Testimonials==========================================================*/
+#testimonials{
+    padding: 7% 15%;
+    background-color:rgba(245, 97, 86, 0.788);
+}
+
+.testimonial-img{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px 20px ;
+}
+#press{
+    background-color:rgba(245, 97, 86, 0.788);
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding:5% 15%;
+}
+/*============================================================pricing========================================================*/
+#pricing{
+    padding: 100PX;
+}
+.card-body{
+    height: 310px;
+}
+.p-card{
+    padding: 2% 0;
+}
+#btn-pricing{
+    margin: 0;
+    color: #fff;
+}
+.p-btn{
+    margin-bottom: 6.5px;
+}
+.card-pricing{
+    padding: 3% 3%;
+}
+
+/*============================================rodape====================================================*/
+#rodape{
+    padding: 12%;
+}
+#icons-footer{
+    margin-top: 10px;
+}
+/*============================================Media Query====================================================*/
+@media(max-width:1100px){
+    .celular-gato{
+        position: static;
+        transform: rotate(0deg);
+        width: 40%;
+        margin-top: 50px;
+    }
+
+    .container-fluid{
+        padding-bottom: 50px;
+    }
+}
